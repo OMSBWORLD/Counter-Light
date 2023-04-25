@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-weight: bold;
+    border: none;
+}
+.grand{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    min-height: 80vh;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.first{
+    width: 40%;
+    height: 500px;
+    margin-left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    width: 200px;
+    height: 200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.button1{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;  
+}
+#up{
+    width: 50px;
+    height: 40px;
+    background-color: blue;
+    cursor: pointer;
+}
+#down{
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+}
+#reset{
+    width: 50px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.second{
+    width: 40%;
+    height: 500px;
+    margin-right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.power{
+    width: 200px;
+    height: 200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.button2{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+#on{
+    width: 50px;
+    height: 40px;
+    background-color: green;
+    cursor: pointer;
+}
+#off{
+    width: 50px;
+    height: 40px;
+    background-color: red;
+    cursor: pointer;
+}
+#neutral{
+    width: 70px;
+    height: 40px;
+    background-color: yellow;
+    cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+    .grand{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        min-height: 80vh;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    }
+    .first{
+        width: 100%;
+        height: 300px;
+        margin-right: 50px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .second{
+        width: 100%;
+        height: 300px;
+        margin-left: 50px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
